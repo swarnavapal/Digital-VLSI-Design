@@ -41,7 +41,7 @@ module tb_mult;
                 @(negedge clk);
                 a = ai[3:0];
                 b = bi[3:0];
-                expected = ai * bi; // '*' is permitted in the testbench.
+                expected = ai * bi; 
 
                 @(posedge clk); // operand registers capture a and b
                 @(posedge clk); // output register captures their product
