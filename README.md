@@ -89,10 +89,8 @@ corner for that layout.
 | Number of runs needed | 10 |
 | Core area (um^2) | 17759.5 (die 22500 = 150 x 150) |
 | Cells after synthesis (Part B) | 61 |
-| Cells after place and route | 331 standard cells excluding fill; 1884 including 1299 decap cells,
-254 fill cells |
-| Kinds of cells added | 245 tap cells,1299 decap cells,
-254 fill cells, 21 timing-repair buffers, 3 clock buffers |
+| Cells after place and route | 331 standard cells excluding fill; 1884 including 1299 decap cells, 254 fill cells |
+| Kinds of cells added | 245 tap cells,1299 decap cells, 254 fill cells, 21 timing-repair buffers, 3 clock buffers |
 | Wirelength (um) | 2518 |
 | Setup slack (ns) | 0.362 (worst corner, max_ss_100C_1v60) |
 | Post-route Fmax (MHz) | 1000 / (8.0 - 0.362) = 130.9 (slow corner); about 262 at the typical corner using the tt slack of 4.191 ns |
